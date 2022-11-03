@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> rogena-portfolio website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://kit.fontawesome.com/a869259d08.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <a href="#contact"><img  class="logo" src="images/habert-logo.png" alt=""></a>
+            <ul id="sidemenu">
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Front End Web Developer</p>
+            <h1>HI, Im <span>Habert Rogena</span> <br> from Kenya</h1>
+        </div>
+    </div>
+ </div>
+
+ <!--about section-->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/FB_IMG_16648183454930548.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About me</h1>
+                <p>
+                    I am a full stack  web  developer who is passionate about product design and development. 
+                    I love building bespoke web-based applications to offer solutions
+                     to customers' pain points. I'm a highly collaborative individual with 
+                     a valuable team spirit working with software professionals to develop solutions.
+
+                   
+                </p>
+                <div class="tab-tittle">
+                    <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                    
+                </div>
+                <div class="tab-contents active-tab"  id="skills">
+                    <ul>
+                        <li><span>UI/UX</span> <br>Designing web/app interfaces</li>
+                        <li><span>Web Development</span> <br> web development</li>
+                        <li><span>App Development</span> <br>building android/IOS apps</li>
+                    </ul>
+                </div>
+                
+               
+            </div>
+        </div>
+    </div>
+ </div>
+ <!---services-->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Animi illum exercitationem
+                      voluptates asperiores aperiam placeat. Fuga!</p>
+                      <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Animi illum exercitationem
+                      voluptates asperiores aperiam placeat. Fuga!</p>
+                      <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App  Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Animi illum exercitationem
+                      voluptates asperiores aperiam placeat. Fuga!</p>
+                      <a href="#"> learn more</a>
+            </div>
+        </div>
+
+    </div>
+ </div>
+
+ <!---portfolio-->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/social.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you with talented people around the  world.Download it from playstore</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/movie.jpg" alt="">
+                <div class="layer">
+                    <h3>Movie  App</h3>
+                    <p>The app connects you with talented people around the  world.Download it from playstore</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/e-commerse.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you with talented people around the  world.Download it from playstore</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+ </div>
+
+ <!---contact-->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                   <p> <i class="fa-solid fa-paper-plane"></i>habertorogy12@gmail.com</p>
+                   <p><i class="fa-sharp fa-solid fa-square-phone"></i> +254741273216</p>
+                   <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/+254741273216"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/habert.rogena"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/habert-rogena-0116a9198"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-gmail"></i></a>
+                   </div>
+                   <a href="#" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="col-right">
+                <form>
+                    <input type="text" name="name" placeholder="your Name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message"  rows="4" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @habert. made by habertrogena</p>
+    </div>
+ </div>
+
+    <script src='main.js'></script>
+</body>
+</html>
